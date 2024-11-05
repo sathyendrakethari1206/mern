@@ -30,7 +30,7 @@ const Card = ({ course, title, category, description, _id,img }) => {
         _hover={{ boxShadow: "2xl", cursor: "pointer" }}
       >
         <Image
-          src={img || image[Math.floor(Math.random() * length)]}
+          src={image[Math.floor(Math.random() * length)]}
           alt={title}
           objectFit="cover"
           h='150px'
